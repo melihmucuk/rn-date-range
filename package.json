@@ -1,0 +1,19 @@
+{
+  "name": "rn-date-range",
+  "version": "1.0.0",
+  "description": "datepicker component for react native",
+  "main": "Calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "datepicker",
+    "date",
+    "react",
+    "native",
+    "date",
+    "range"
+  ],
+  "author": "Melih Mucuk",
+  "license": "MIT"
+}
