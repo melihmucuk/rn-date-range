@@ -1,6 +1,6 @@
 {
   "name": "rn-date-range",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "datepicker component for react native",
   "main": "Calendar.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "date",
     "range"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melihmucuk/rn-date-range.git"
+  },
   "author": "Melih Mucuk",
   "license": "MIT"
 }
