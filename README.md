@@ -48,7 +48,7 @@ AppRegistry.registerComponent('RNCalendarDemo', () => RNCalendarDemo);
 
 All properties are optional
 
-- **`onSelectionChange`** _(func)_ — Function which will be executed on day click. First param is clicked day date, second one previous clicked day.
+- **`onSelectionChange`** _(func)_ — Function which will be executed on day click. First param is clicked day date, second one previous clicked day, third one selected range.
 
 - **`startDate`** _(Date)_ — Date from which you can select dates. By default is **new Date()**.
 

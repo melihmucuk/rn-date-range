@@ -211,8 +211,8 @@ export default class Calendar extends React.Component {
 		}
 
 		this.months = months;
-
-		this.props.onSelectionChange(value, this.prevValue);
+		const selectedRange = this.props.rangeSelect ? {selectFrom, selectTo} : null
+		this.props.onSelectionChange(value, this.prevValue, selectedRange);
 		this.prevValue = value;
 
 		this.setState({
