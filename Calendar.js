@@ -113,6 +113,14 @@ export default class Calendar extends React.Component {
 		}
 	}
 
+	componentWillReceiveProps(nextProps){
+		if(nextProps.selectFrom && nextProps.selectTo){
+			this.selectFrom = nextProps.selectedFrom;
+			this.selectTo = nextProps.selectTo;
+			this.changeSelection(nextProps.selectFrom);
+		}
+	}
+
 	generateMonths(count, startDate) {
 		var months = [];
 		var dateUTC;
