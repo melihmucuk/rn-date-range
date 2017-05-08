@@ -1,4 +1,4 @@
-# rn-date-range [![npm version](https://badge.fury.io/js/rn-date-range.svg)](https://badge.fury.io/js/rn-date-range)
+# rn-date-range [![NPM Version](https://img.shields.io/npm/v/rn-date-range.svg?style=flat)](https://www.npmjs.com/package/rn-date-range) [![NPM Downloads](https://img.shields.io/npm/dm/rn-date-range.svg?style=flat)](https://www.npmjs.com/package/rn-date-range)
 Date picker component for react native. Forked and edited from [react-native-day-picker](https://github.com/ivanchenko/react-native-day-picker)
  
 ![screenshot](https://github.com/melihmucuk/rn-date-range/blob/master/ss.png?raw=true)
