@@ -23,7 +23,7 @@ export default class Calendar extends React.Component {
 
 		monthsLocale: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
 			'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
-		weekDaysLocale: ['P', 'S', 'Ç', 'P', 'C', 'C', 'P'],
+		weekDaysLocale: ['P', 'P', 'S', 'Ç', 'P', 'C', 'C'],
 
 		width: width,
 
@@ -46,7 +46,8 @@ export default class Calendar extends React.Component {
 		dayInRangeTextColor: '#FFFFFF',
 
 		isFutureDate: true,
-		rangeSelect: true
+		rangeSelect: true,
+		startFromMonday: true
 	};
 
 	static propTypes = {
