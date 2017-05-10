@@ -52,7 +52,7 @@ export default class Day extends React.Component {
 
 
 
-		const dynamicStyle = {backgroundColor: backColor, width: Math.floor(width/7), height: Math.floor(width/10)};
+		const dynamicStyle = {backgroundColor: backColor, width: Math.floor(width/7), height: Math.floor(width/12)};
 		const isToday = status === 'common' && new Date().toDateString() === date.toDateString() ? {borderWidth: 1, borderRadius: 15, borderColor: '#004BBB'} : {}
 		return (
 			<TouchableOpacity  
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
 		fontSize: 14,
 		width: 30, 
 		fontWeight: '500',
-		textAlign: 'center'
+		textAlign: 'center',
+		backgroundColor: 'transparent'
 	}
 });
